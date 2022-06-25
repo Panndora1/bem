@@ -1,0 +1,30 @@
+.footer {
+    border-top: 4px solid rgb(255, 78, 80);
+}
+
+.footer__container {
+    width: 100%;
+    max-width: 940px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px 0;
+}
+
+.menu__title {
+    padding-bottom: 16px;
+}
+
+.menu__item {
+    font-size: 14px;
+    font-family: "Roboto";
+    color: rgb(102, 102, 102);
+    line-height: 1.714;
+    text-align: left;
+    padding-bottom: 8px;
+}
+
+.menu__item:last-child {
+    padding-bottom: 0px;
+}
