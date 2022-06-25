@@ -2,4 +2,11 @@
 @import url(./css/fonts.css);
 
 @import url(./css/pages/header.css);
+@import url(./css/pages/main.css);
+
+@import url(./css/pages/steps.css);
+@import url(./css/pages/partners.css);
+@import url(./css/pages/gallery.css);
+
+@import url(./css/pages/form.css);
   

@@ -1,0 +1,88 @@
+.partner-wr {
+    padding-top: 99px;
+}
+  
+.partner-wr__info {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.partner-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.partner-info__title {
+    padding-bottom: 31px;
+}
+
+.reviews {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.partner-info__cards {
+    gap: 19px;
+}
+
+.reviews__item {
+    width: 20%;
+}
+
+.review {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 220px;
+}
+
+.review__avatar {
+    position: relative;
+}
+
+.review__photo {
+    border: none;
+    border-radius: 50%;
+}
+
+.review__icon {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.headline-4 {
+    font-size: 14px;
+    font-family: "Montserrat Bold";
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;      
+}
+
+.review__name {
+    padding: 21px 0 11px;
+}
+
+.review__text {
+    font-size: 14px;
+    font-family: "Roboto";
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+    text-align: center;
+}
+
+.partner-info__button {
+    margin-top: 25px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(255, 78, 80);
+    background-color: rgba(255, 255, 255, 0);
+    width: 196px;
+    height: 44px;
+    color: rgb(255, 78, 80);;   
+}
