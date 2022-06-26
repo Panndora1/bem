@@ -7,13 +7,20 @@
     max-width: 940px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
+    gap: 118px;
     align-items: flex-start;
-    padding: 40px 0;
+    padding: 38px 0;
 }
 
 .menu__title {
-    padding-bottom: 16px;
+    padding-bottom: 9px;
+    padding-right: 51px;
+    
+}
+
+.menu__title:last-child {
+    padding-right: 172px;
 }
 
 .menu__item {
@@ -22,7 +29,7 @@
     color: rgb(102, 102, 102);
     line-height: 1.714;
     text-align: left;
-    padding-bottom: 8px;
+    padding-bottom: 0px;
 }
 
 .menu__item:last-child {

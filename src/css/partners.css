@@ -1,5 +1,5 @@
 .partner-wr {
-    padding-top: 99px;
+    padding-top: 93px;
 }
   
 .partner-wr__info {
@@ -15,7 +15,7 @@
 }
 
 .partner-info__title {
-    padding-bottom: 31px;
+    padding-bottom: 34px;
 }
 
 .reviews {
@@ -25,11 +25,11 @@
 }
 
 .partner-info__cards {
-    gap: 19px;
+    gap: 20px;
 }
 
 .reviews__item {
-    width: 20%;
+    width: 25%;
 }
 
 .review {
@@ -51,8 +51,8 @@
 
 .review__icon {
     position: absolute;
-    right: 0;
-    bottom: 0;
+    right: -5px;
+    bottom: -4px;
 }
 
 .headline-4 {
@@ -65,7 +65,7 @@
 }
 
 .review__name {
-    padding: 21px 0 11px;
+    padding: 15px 0 11px;
 }
 
 .review__text {
@@ -74,15 +74,16 @@
     color: rgb(102, 102, 102);
     line-height: 1.2;
     text-align: center;
+    
 }
 
 .partner-info__button {
-    margin-top: 25px;
+    margin-top: 37px;
     border-style: solid;
     border-width: 2px;
     border-color: rgb(255, 78, 80);
     background-color: rgba(255, 255, 255, 0);
     width: 196px;
-    height: 44px;
+    height: 40px;
     color: rgb(255, 78, 80);;   
 }

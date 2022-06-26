@@ -2,11 +2,11 @@
     width: 100%;
     max-width: 940px;
     margin: 0 auto;
-    padding-top: 99px;
+    padding-top: 96px;
 }
 
 .gallery__title {
-    padding-bottom: 35px;
+    padding-bottom: 36px;
 }
 
 .pictures {
@@ -63,4 +63,6 @@
 
 .pictures__title {
     color: white;
+    padding-bottom: 5px;
+    width: 73%;
 }

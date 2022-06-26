@@ -8,7 +8,8 @@
 .steps-wr__steps {
     width: 940px;
     margin: 0 auto;
-    padding-top: 99px;
+    padding-top: 95px;
+    padding-right: 4px;
 }
 
 .title {
@@ -21,7 +22,7 @@
 }
 
 .steps__title {
-    padding-bottom: 40px;
+    padding-bottom: 34px;
 }
 
 .cards {
@@ -35,6 +36,7 @@
     width: 100%;
     max-width: 940px;
     gap: 20px;
+    padding-left: 2px;
 }
 
 .card {
@@ -62,7 +64,7 @@
 }
 
 .card__button {
-    margin: 0 21px 19px 21px;
+    margin: 0 21px 12px 21px;
     width: 70px;
     height: 20px;
     font-family: "Montserrat";
@@ -70,6 +72,9 @@
     text-transform: uppercase;
     line-height: 1.2;
     text-align: center;
+    font-size: 9px;
+    letter-spacing: 3px;
+    padding-right: 1px;
 }
 
 .card__title {
@@ -79,11 +84,11 @@
     font-weight: bold;
     line-height: 1.2;
     text-align: left;
-    margin: 0 19px 20px 19px;
+    margin: 0 19px 12px 19px;
 }
 
 .card__text {
-    margin: 0 19px 14px 19px;
+    margin: 0 19px 17px 19px;
     font-size: 14px;
     font-family: "Roboto";
     color: rgb(204, 204, 204);

@@ -50,9 +50,13 @@
     border-width: 2px;
     border-color: rgb(255, 255, 255);
     background-color: rgba(255, 78, 81, 0);
-    width: 94px;
+    width: 90px;
+    font-size: 14px;
+    height: 36px;
+    margin-bottom: 6px;
 }
 
 .log-in__button_no-border {
     border: none;
+    width: 84px;
 }
