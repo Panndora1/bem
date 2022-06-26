@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url(/src/fonts/MontserratRegular.ttf);
+    font-style: normal; 
+    font-weight: normal; 
+}
+
+@font-face {
+    font-family: "Montserrat Bold";
+    src: url(/src/fonts/MotserratBold.ttf);
+    font-style: normal; 
+    font-weight: bold; 
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(/src/fonts/fonts/Roboto.ttf);
+    font-style: normal; 
+    font-weight: normal; 
+}
