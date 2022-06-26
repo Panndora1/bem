@@ -3,7 +3,8 @@
 }
   
 .partner-wr__info {
-    width: 940px;
+    width: 100%;
+    max-width: 940px;
     margin: 0 auto;
 }
 
@@ -12,6 +13,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .partner-info__title {

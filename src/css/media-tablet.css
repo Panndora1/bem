@@ -1,0 +1,102 @@
+@media (max-width: 768px) {
+
+    /* header */
+
+    .header-wr {
+        padding: 0 50px;
+        max-width: 840px;
+    }
+
+    /* main */
+
+    .main-wr__container {
+        padding-top: 48px;
+    }
+
+    /* steps */
+
+    .steps__cards {
+        width: 98%;
+        max-width: 940px;
+        margin: 0 auto;
+    }
+
+    .steps__title {
+        padding-left: 7px;
+    }
+
+    /* partner */
+
+    .partner-wr__info {
+        max-width: 600px;
+    }
+
+    .reviews {
+        flex-wrap: wrap;
+        justify-content: center;
+        flex: 2 2 100%;
+    }
+
+    .review {
+        width: 50%;
+        max-width: 220px;
+    } 
+
+    .reviews__item:nth-child(1) {
+        padding-right: 16px;
+        padding-left: 4px;
+        padding-bottom: 38px;
+    }
+
+    .reviews__item:nth-child(3) {
+        padding-right: 16px;
+        padding-left: 4px;
+    }
+
+
+    /* gallery */
+
+    .gallery-wr__gallary {
+        width: 98%;
+        margin: 0 auto;
+    }
+
+    .pictures {
+        gap: 15;
+    }
+
+    .pictures__item {
+        width: 31%;
+        max-width: 280px;
+    }
+
+    .pictures__item_big {
+        width: 66%;
+        max-width: 500px;
+    }
+
+    .pictures__title {
+        width: 90%;
+    }
+
+    /* form */
+
+    .call-to-action-wr__call-to-action {
+        padding-top: 92px;
+    }
+
+    /* footer */
+    .footer__container  {
+        width: 90%;
+        max-width: 840px;
+        margin: 0 auto;
+    }
+
+    .footer__wrapper {
+        width: 34%;
+        gap: 0;
+        justify-content: space-between;
+    }
+}
+
+

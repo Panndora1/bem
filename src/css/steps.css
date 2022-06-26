@@ -6,7 +6,8 @@
 }
 
 .steps-wr__steps {
-    width: 940px;
+    width: 100%;
+    max-width: 940px;
     margin: 0 auto;
     padding-top: 95px;
     padding-right: 4px;
@@ -29,7 +30,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
 }
 
 .steps__cards {
@@ -53,14 +53,17 @@
 
 .card1 {
     background-image: url(/src/img/step1.jpg);
+    background-position: center;
 }
 
 .card2 {
     background-image: url(/src/img/step2.jpg);
+    background-position: center;
 }
 
 .card3 {
     background-image: url(/src/img/step3.jpg);
+    background-position: center;
 }
 
 .card__button {

@@ -30,6 +30,7 @@
 
 .pictures__item:nth-child(1) {
     background-image: url(/src/img/gallery1.jpg);
+    background-position: center;
 }
 
 .pictures__item:nth-child(2) {
@@ -38,22 +39,27 @@
 
 .pictures__item:nth-child(3) {
     background-image: url(/src/img/gallery3.jpg);
+    background-position: center;
 }
 
 .pictures__item:nth-child(4) {
     background-image: url(/src/img/gallery4.jpg);
+    background-position: center;
 }
 
 .pictures__item:nth-child(5) {
     background-image: url(/src/img/gallery5.jpg);
+    background-position: center;
 }
 
 .pictures__item:nth-child(6) {
     background-image: url(/src/img/gallery6.jpg);
+    background-position: center;
 }
 
 .pictures__item:nth-child(7) {
     background-image: url(/src/img/gallery7.jpg);
+    background-position: center;
 }
 
 .pictures__item_big {

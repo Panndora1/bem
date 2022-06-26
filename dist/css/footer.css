@@ -7,20 +7,23 @@
     max-width: 940px;
     margin: 0 auto;
     display: flex;
-    justify-content: flex-start;
-    gap: 118px;
+    justify-content: space-between;
     align-items: flex-start;
     padding: 38px 0;
 }
 
-.menu__title {
-    padding-bottom: 9px;
-    padding-right: 51px;
-    
+.footer__wrapper {
+    width: 60%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0 auto;
+    gap: 170px;
+    padding-left: 5px;
 }
 
-.menu__title:last-child {
-    padding-right: 172px;
+.menu__title {
+    padding-bottom: 9px;   
 }
 
 .menu__item {
@@ -33,5 +36,15 @@
 }
 
 .menu__item:last-child {
-    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.footer__copiright {
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer__logo {
+    width: 30%;
 }

@@ -1,8 +1,17 @@
 .main-wr {
     background-image: url(/src/img/main.jpg);
-    background-repeat: no-repeat;
-    background-position: 0 -116px;
     background-size: cover;
+    background-position: 0 -116px;
+    height: 584px;
+}
+
+@media (max-width: 1200px) {
+    .main-wr {
+        background-image: url(/src/img/main2.jpg);
+        background-size: cover;
+        background-position: center 0;
+    }
+    
 }
 
 .main-wr__container {
@@ -11,7 +20,7 @@
     justify-content: center;
     align-items: center;
     margin: auto;
-    padding-top: 97px;
+    padding-top: 47px;
 }
 
 .headline-info {
