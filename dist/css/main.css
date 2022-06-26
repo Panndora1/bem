@@ -1,5 +1,6 @@
 .main-wr {
     background-image: url(/src/img/main.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: 0 -116px;
     height: 584px;
@@ -10,6 +11,7 @@
         background-image: url(/src/img/main2.jpg);
         background-size: cover;
         background-position: center 0;
+        background-repeat: no-repeat;
     }
     
 }
@@ -33,6 +35,10 @@
 .main-wr__headline-info {
     width: 100%;
     max-width: 500px;
+}
+
+.main-wr__headline-info >.header__logo {
+    display: none;
 }
 
 .headline-info__title {

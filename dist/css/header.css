@@ -53,7 +53,12 @@
 .header__logo {
     width: 50%;
 }
-  
+
+.header__logo,
+.logo__img {
+    display: block;
+}
+   
 .log-in__button {
     border-style: solid;
     border-width: 2px;

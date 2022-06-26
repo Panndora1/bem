@@ -7,7 +7,7 @@
 
 .steps-wr__steps {
     width: 100%;
-    max-width: 940px;
+    max-width: 1140px;
     margin: 0 auto;
     padding-top: 95px;
     padding-right: 4px;
@@ -33,10 +33,12 @@
 }
 
 .steps__cards {
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
     max-width: 940px;
     gap: 20px;
     padding-left: 2px;
+
 }
 
 .card {
