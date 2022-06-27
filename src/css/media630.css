@@ -1,0 +1,42 @@
+@media (max-width: 630px) {
+    .steps-wr__steps {
+        width: 100%;
+        max-width: 940px;
+        padding-top: 32px;
+    }
+
+    .steps__title {
+        padding-right: 6px;
+        padding-bottom: 18px;
+    }
+
+    .cards {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .card {
+        width: 96%;
+        height: 100%;
+        max-width: 600px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .steps__cards {
+        gap: 10px;
+    }
+
+    .card1 {
+        padding-top: 70px;
+    }
+
+    .card2 {
+        padding-top: 100px;
+    }
+
+    .card3 {
+        padding-top: 70px;
+    }
+
+}

@@ -1,0 +1,59 @@
+.main-wr {
+    background-image: url(/src/img/main.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -116px;
+    height: 584px;
+}
+
+.main-wr__container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-top: 47px;
+}
+
+.headline-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-wr__headline-info {
+    width: 100%;
+    max-width: 500px;
+}
+
+.main-wr__headline-info > .logo {
+    display: none;
+}
+
+.headline-info__title {
+    font-size: 52px;
+    font-family: "Montserrat Bold";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    padding-bottom: 27px; 
+    padding-right: 3px;     
+}
+
+.headline-info__text {
+    font-size: 24px;
+    font-family: "Roboto";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: center;
+    padding-bottom: 31px;
+}
+
+.headline-info__button {
+    margin-bottom: 235px;
+    width: 225px;      
+}
+  
