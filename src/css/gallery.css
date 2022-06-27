@@ -1,8 +1,14 @@
+.gallery-wr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 .gallery-wr__gallary {
     width: 100%;
     max-width: 940px;
-    margin: 0 auto;
-    padding: 96px 10px 0 10px;
+    padding: 96px 6px 0 6px;
 }
 
 .gallery__title {
@@ -31,7 +37,6 @@
 @media (max-width: 950px) {
     .gallery-wr__gallary {
         width: 98%;
-        margin: 0 auto;
     }
 
     .pictures {

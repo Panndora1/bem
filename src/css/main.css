@@ -6,16 +6,6 @@
     height: 584px;
 }
 
-@media (max-width: 1200px) {
-    .main-wr {
-        background-image: url(/src/img/main2.jpg);
-        background-size: cover;
-        background-position: center 0;
-        background-repeat: no-repeat;
-    }
-    
-}
-
 .main-wr__container {
     height: 100%;
     display: flex;
@@ -37,7 +27,7 @@
     max-width: 500px;
 }
 
-.main-wr__headline-info >.header__logo {
+.main-wr__headline-info > .logo {
     display: none;
 }
 

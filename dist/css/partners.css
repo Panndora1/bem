@@ -4,7 +4,7 @@
   
 .partner-wr__info {
     width: 100%;
-    max-width: 940px;
+    max-width: 960px;
     margin: 0 auto;
 }
 
@@ -24,6 +24,7 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    padding: 0 10px;
 }
 
 .partner-info__cards {

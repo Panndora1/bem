@@ -1,0 +1,15 @@
+@media (max-width: 1440px) {
+    .header {
+        background-image: url(/src/img/head.jpg);
+    background-position: center 0;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    }
+
+    .main-wr {
+        background-image: url(/src/img/main2.jpg);
+        background-size: cover;
+        background-position: center 0;
+        background-repeat: no-repeat;
+    }
+}

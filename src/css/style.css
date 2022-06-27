@@ -12,5 +12,13 @@
 
 @import url(/dist/css/footer.css);
 
+
+@import url(/dist/css/media1440.css);
 @import url(/dist/css/media-tablet.css);
+@import url(/dist/css/media630.css);
+@import url(/dist/css/media530.css);
+
 @import url(/dist/css/media-mobile.css);
+
+
+

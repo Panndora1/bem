@@ -1,10 +1,11 @@
 .footer {
+    width: 100%;
     border-top: 4px solid rgb(255, 78, 80);
 }
 
 .footer__container {
     width: 100%;
-    max-width: 940px;
+    max-width: 960px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -39,12 +40,14 @@
     margin-bottom: 0px;
 }
 
-.footer__copiright {
+.footer__copyright {
     width: 30%;
     display: flex;
     justify-content: flex-end;
+    padding-right: 10px;
 }
 
 .footer__logo {
     width: 30%;
+    padding-left: 0px;
 }

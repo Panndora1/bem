@@ -7,15 +7,6 @@
     background-size: cover;
 }
 
-@media (max-width: 1200px) {
-    .header {
-        background-image: url(/src/img/head.jpg);
-    background-position: center 0;
-    background-repeat: no-repeat;
-    background-size: auto auto;
-    }
-}
-
 .container {
     width: 100%;
 }
@@ -26,7 +17,7 @@
     align-items: center;
     height: 116px;
     margin: 0 auto;
-    max-width: 940px;
+    max-width: 960px;
 }
 
 .button {
@@ -47,6 +38,7 @@
     justify-content: flex-end;
     align-items: center;
     height: 100%;
+    padding-right: 10px;
 }
 
 .header__log-in,
@@ -54,11 +46,15 @@
     width: 50%;
 }
 
-.header__logo,
-.logo__img {
+.header__logo > .logo__img,
+.logo {
     display: block;
 }
    
+.logo__img {
+    padding-left: 10px;
+}
+
 .log-in__button {
     border-style: solid;
     border-width: 2px;

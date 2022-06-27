@@ -3,7 +3,7 @@
     /* header */
 
     .header-wr {
-        padding: 0 50px;
+        padding: 0 40px;
         max-width: 840px;
     }
 
@@ -18,7 +18,7 @@
     .steps__cards {
         width: 98%;
         max-width: 940px;
-        margin: 0 auto;
+        
     }
 
     .steps__title {
@@ -58,11 +58,11 @@
 
     .gallery-wr__gallary {
         width: 98%;
-        margin: 0 auto;
     }
 
     .pictures {
-        gap: 15;
+        gap: 0px;
+        row-gap: 20px;
     }
 
     .pictures__item {
@@ -87,15 +87,23 @@
 
     /* footer */
     .footer__container  {
-        width: 90%;
+        width: 95%;
         max-width: 840px;
         margin: 0 auto;
     }
 
     .footer__wrapper {
-        width: 34%;
+        width: 32%;
         gap: 0;
         justify-content: space-between;
+    }
+
+    .footer__copyright {
+        padding-right: 19px;
+    }
+
+    .footer__logo {
+        padding-left: 10px;
     }
 }
 
