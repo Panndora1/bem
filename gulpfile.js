@@ -6,6 +6,12 @@ global.app = {
     gulp: gulp,
 }
 
+const {src, task}= require('gulp');
+const ghPages = require('gulp-gh-pages');
+
+task('deploy', () => src('./dist/**/*').pipe(ghPages()));
+
+
 //import tasks
 import { copy } from './gulp/tasks/copy.js'
 import { reset } from './gulp/tasks/reset.js'
