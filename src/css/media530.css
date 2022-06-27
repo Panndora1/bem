@@ -1,0 +1,139 @@
+@media (max-width: 530px) {
+    .header {
+        background-image: url(/src/img/head.jpg);
+        background-size: cover;
+    }
+
+
+    .header-wr {
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+        align-items: center;
+        height: 116px;
+    }
+
+    .header__log-in,
+    .header__logo {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header__logo > .logo__img {
+        display: none;
+    }
+
+    .header__log-in {
+        padding-right: 20px;
+        padding-bottom: 2px;
+    }
+
+
+    .main-wr__headline-info > .logo {
+        display: flex;
+        padding-top: 0px;
+        padding-bottom: 30px;
+    }
+
+
+    .headline-info__title {
+        font-size: 29px;
+        padding-bottom: 14px;
+        max-width: 300px;
+    }
+
+    .headline-info__text {
+        width: 70%;
+        font-size: 18px;
+        padding-bottom: 15px;
+    }
+
+    .headline-info__button {
+        width: 60%;
+    }
+
+
+    .main-wr__container {
+        padding-top: 78px;
+    }
+
+
+
+
+    .gallery-wr__gallary {
+        padding-top: 30px;
+    }
+
+    .gallery__title {
+        padding-right: 10px;
+        padding-bottom: 15px;
+    }
+
+    .pictures {
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .pictures__item {
+        width: 96%;
+        max-width: 510px;
+        height: 120px;
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .pictures__title {
+        width: 74%;
+    }
+
+
+    .call-to-action {
+        width: 96%;
+    }
+
+    .footer__container {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding-top: 18px;
+    }
+
+    .footer__logo {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 15px;
+    }
+
+    .footer__wrapper {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .footer__menu {
+        width: 100%;
+    }
+
+    .footer__copyright {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 15px;  
+        padding-right: 4px;  
+    }
+
+    .menu__title {
+        padding-bottom: 0px;
+    }
+
+    .menu__list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        padding-bottom: 10px;
+    }
+
+}

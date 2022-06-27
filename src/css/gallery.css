@@ -1,0 +1,118 @@
+.gallery-wr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.gallery-wr__gallary {
+    width: 100%;
+    max-width: 940px;
+    padding: 96px 6px 0 6px;
+}
+
+.gallery__title {
+    padding-bottom: 36px;
+}
+
+.pictures {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.pictures__item {
+    width: 33.333%;
+    max-width: 300px;
+    height: 310px;
+    border: none;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 950px) {
+    .gallery-wr__gallary {
+        width: 98%;
+    }
+
+    .pictures {
+        gap: 15;
+    }
+
+    .pictures__item {
+        width: 31%;
+        max-width: 280px;
+    }
+
+    .pictures__item_big {
+        width: 66%;
+        max-width: 500px;
+    }
+
+    .pictures__title {
+        width: 90%;
+    }
+}
+
+@media (max-width: 680px) {
+    .pictures__item {
+        max-width: 200px;
+    }
+
+    .pictures__item_big {
+        max-width: 200px;
+    }
+
+    .pictures {
+        gap: 10px;
+    }
+}
+
+.pictures__item:nth-child(1) {
+    background-image: url(/src/img/gallery1.jpg);
+    background-position: center;
+}
+
+.pictures__item:nth-child(2) {
+    background-image: url(/src/img/gallery2.jpg);
+}
+
+.pictures__item:nth-child(3) {
+    background-image: url(/src/img/gallery3.jpg);
+    background-position: center;
+}
+
+.pictures__item:nth-child(4) {
+    background-image: url(/src/img/gallery4.jpg);
+    background-position: center;
+}
+
+.pictures__item:nth-child(5) {
+    background-image: url(/src/img/gallery5.jpg);
+    background-position: center;
+}
+
+.pictures__item:nth-child(6) {
+    background-image: url(/src/img/gallery6.jpg);
+    background-position: center;
+}
+
+.pictures__item:nth-child(7) {
+    background-image: url(/src/img/gallery7.jpg);
+    background-position: center;
+}
+
+.pictures__item_big {
+    width: 66%;
+    max-width: 620px;
+}
+
+.pictures__title {
+    color: white;
+    padding-bottom: 5px;
+    width: 73%;
+}

@@ -1,0 +1,28 @@
+{
+  "name": "bem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "type": "module",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Panndora1/bem.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Panndora1/bem/issues"
+  },
+  "homepage": "https://panndora1.github.io/bem/",
+  "devDependencies": {
+    "del": "^6.1.1",
+    "gh-pages": "^4.0.0",
+    "gulp": "^4.0.2",
+    "gulp-concat-css": "^3.1.0",
+    "gulp-file-include": "^2.3.0",
+    "gulp-gh-pages": "^0.5.4"
+  }
+}

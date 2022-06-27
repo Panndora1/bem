@@ -1,0 +1,24 @@
+@import url(/dist/css/reset.css);
+@import url(/dist/css/fonts.css);
+
+@import url(/dist/css/header.css);
+@import url(/dist/css/main.css);
+
+@import url(/dist/css/steps.css);
+@import url(/dist/css/partners.css);
+@import url(/dist/css/gallery.css);
+
+@import url(/dist/css/form.css);
+
+@import url(/dist/css/footer.css);
+
+
+@import url(/dist/css/media1440.css);
+@import url(/dist/css/media-tablet.css);
+@import url(/dist/css/media630.css);
+@import url(/dist/css/media530.css);
+
+@import url(/dist/css/media-mobile.css);
+
+
+
